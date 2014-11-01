@@ -18,7 +18,10 @@ BLACK = 1
 WHITE = 0
 
 # You'll want to insert your agent URL here
-AGENT_URL = "https://agent.electricimp.com/REPLACEME/image"
+# Grey link
+AGENT_URL = "https://agent.electricimp.com/KFAXR65RRAx_/image"
+# Black link
+#AGENT_URL = "https://agent.electricimp.com/IRI175o3HuWI/image"
 
 image = Magick::Image.read("robot.png") {
   self.colorspace = Magick::GRAYColorspace
